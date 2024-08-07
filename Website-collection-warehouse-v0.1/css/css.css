@@ -1,0 +1,105 @@
+*{padding: 0px;margin: 0px;}
+body{
+	background-color: rgba(1,1,1,0.93);
+	min-width: 10px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+/* 整体flex */
+div{
+	display: flex;
+	/* background-color: aqua; */
+	width: 100%;
+	color: white;
+	height: auto;
+	flex-direction: column;
+}
+div div{
+	width: 100%;
+	height: 100%;
+	/* background-color: bisque; */
+}
+
+
+/* 顶栏flex */
+#dl{
+	display: flex;
+	background-color: black;
+	width: 100%;
+	height: 40px;
+}
+#dlui{
+	/* background-color: bisque; */
+	background-image: url(../img/暂时填补图标/暂时替补（长）.png);
+	width: 150px;
+	height: 40px;
+}
+
+/* 内容总flex */
+#nr{
+	display: flex;
+	/* background-color: blue; */
+	width: 100%;
+	flex-direction: row;
+}
+/* 侧栏flex */
+.item-1{
+	display: flex;
+	/* background-color: pink; */
+	width: 120px;
+}
+#aa{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+#ab{
+	background-color: rgba(255, 255, 255, 0.1);
+	width: 120px;
+}
+#ab_a{
+	background-color: rgba(255, 255, 255, 0.1);
+	width: 120px;
+}
+#ac{
+	background-color: rgba(1, 1, 1, 0.3);
+	margin: 1px 0px;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	transition: background-color 0.5s ease;
+}
+#ac:hover{
+	background-color: rgba(100, 100, 100, 0.5);
+}
+/* 主要内容显示区 */
+.item-2{
+	display: flex;
+	/* background-color: white; */
+	/* height: 1000px; */
+	flex-shrink: 1;
+	margin-left: 10px;
+}
+#czui{
+	/* background-color: rebeccapurple; */
+	background-image: url(../img/暂时填补图标/暂时替补（长）.png);
+	background-size: 100%;
+	width: 100%;
+	height: 120px;
+}
+#hyc{
+	font-size: 30px;
+}
+div .item-2 hr{
+	border: none;
+	height: 2px;
+	background-color: rgba(255,255,255,0.93);
+	margin-left: 0px;
+}
+/* 分割 */
+#b1{
+	background-size: 38px;background-repeat: no-repeat;margin: 1px;
+}
